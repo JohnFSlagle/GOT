@@ -1,0 +1,105 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: #373737;
+  color: #fff;
+}
+
+.Header {
+  padding: 0px;
+}
+
+.Header > h1 {
+  margin-bottom: 5px;
+}
+
+.Header > h2 {
+  margin-top: 5px;
+  opacity: 0.7;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.game-universe-content > h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0px 20px 0px;
+  max-width: 1440px;
+}
+
+.game-universe-content > p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.fetch-button {
+  min-width: 150px;
+  margin-bottom: 30px;
+  padding: 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(99 142 142);
+  border: none;
+  color: rgb(250, 250, 250);
+  transition: all 0.5s;
+}
+
+.fetch-button:hover {
+  background-color: rgb(40, 209, 209);
+}
+
+.centered-image-container {
+  text-align: center;
+}
+
+.game-image {
+  max-width: 30%; /* Adjust the percentage to control the image size */
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+}
+
+.book {
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 47%;
+  color: #d7d7d7;
+  flex-basis: width;
+  background-color: rgb(99 142 142);
+  max-width: 1440px;
+}
+
+.book h3 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.book h2 {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.details {
+  text-align: left;
+}
